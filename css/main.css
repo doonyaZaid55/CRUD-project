@@ -1,0 +1,118 @@
+body{
+    background-color: #F7ECDE;
+}
+
+h1{
+    position: relative;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    font-family: cursive;
+    font-style: italic;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    background-color: #FEC260;
+    z-index: -1;
+    bottom: 30px;
+    transition: height 360ms;
+}
+
+h1:hover::before{
+    height: 27%;
+}
+
+
+main h2 span{
+    color:#b1ac49ab;
+    
+}
+
+
+
+
+h2{
+    font-family:cursive;
+    color:#3FA55B;
+    font-size: 25px;
+    font-weight: 600;
+}
+    
+label{
+    line-height: 24px;
+    font-weight: 600;
+}
+
+
+.btttn{
+    background-color: #D1512D;
+    color: aliceblue;
+    padding: 7px 55px;
+    border-radius:5px;
+    border: none;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+
+
+hr {
+    border-top: 1px dashed black;
+        
+}
+
+
+
+.btn-visit{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+
+
+.btn-delete{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eb1d36;
+    --bs-btn-border-color: #eb1d36;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d30820;
+    --bs-btn-hover-border-color: #ba081d;
+}
+
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.circles  .child1{
+    background-color: #F15F5D;
+}
+.circles  .child2{
+    background-color: #FEBE2E;
+}
+.circles  .child3{
+    background-color: #4DB748;
+}
+p {
+    font-family: 'Bree Serif', serif;
+    font-size: 19px;
+    line-height: 1;
+    color: #352e28;
+}
+ol li{
+    font-size: 18px;
+    margin-top: 12px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+li i{
+    color: rgb(190, 8, 8);
+}
+
